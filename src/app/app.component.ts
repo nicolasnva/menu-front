@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,32 +8,32 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  name = new FormControl('');
-  oasis = new FormControl('');
-  coca = new FormControl('');
-  diaboloGrenadine = new FormControl('');
-  biereBlonde = new FormControl('');
-  biereAmbree = new FormControl('');
-  biereTriple = new FormControl('');
-  vinRouge = new FormControl('');
-  vinBlanc = new FormControl('');
-  cocktails = new FormControl('');
-  boissonsLibre = new FormControl('');
-  chips = new FormControl('');
-  cacahuete = new FormControl('');
-  curly = new FormControl('');
-  saucisson = new FormControl('');
-  houmousCrudites = new FormControl('');
-  wrapsSaumon = new FormControl('');
-  blinisSaumon = new FormControl('');
-  aperosLibre = new FormControl('');
-  tarteFraises = new FormControl('');
-  brownie = new FormControl('');
-  tiramisu = new FormControl('');
-  porridgeBanane = new FormControl('');
-  tartePommes = new FormControl('');
-  glaceVanille = new FormControl('');
-  dessertsLibre = new FormControl('');
+  name = new UntypedFormControl('');
+  oasis = new UntypedFormControl('');
+  coca = new UntypedFormControl('');
+  diaboloGrenadine = new UntypedFormControl('');
+  biereBlonde = new UntypedFormControl('');
+  biereAmbree = new UntypedFormControl('');
+  biereTriple = new UntypedFormControl('');
+  vinRouge = new UntypedFormControl('');
+  vinBlanc = new UntypedFormControl('');
+  cocktails = new UntypedFormControl('');
+  boissonsLibre = new UntypedFormControl('');
+  chips = new UntypedFormControl('');
+  cacahuete = new UntypedFormControl('');
+  curly = new UntypedFormControl('');
+  saucisson = new UntypedFormControl('');
+  houmousCrudites = new UntypedFormControl('');
+  wrapsSaumon = new UntypedFormControl('');
+  blinisSaumon = new UntypedFormControl('');
+  aperosLibre = new UntypedFormControl('');
+  tarteFraises = new UntypedFormControl('');
+  brownie = new UntypedFormControl('');
+  tiramisu = new UntypedFormControl('');
+  porridgeBanane = new UntypedFormControl('');
+  tartePommes = new UntypedFormControl('');
+  glaceVanille = new UntypedFormControl('');
+  dessertsLibre = new UntypedFormControl('');
   alreadySend = false;
 
   constructor(private http: HttpClient) { }
