@@ -1,0 +1,59 @@
+.main {
+  text-align: center;
+  font-family: cuisineFont;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  width: 338px;
+}
+
+.checkbox-column {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text {
+  border-radius: 5px;
+  width: 338px;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.bloc {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.title {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+}

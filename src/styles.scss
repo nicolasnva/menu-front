@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  background-image: url(assets/cuisine.avif);
+  background-position: center;
+  background-size: auto 140%;
+  background-position-y: -250px;
+  background-repeat: repeat-y;
+}
+
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: cuisineFont;
+  src: url(assets/DeliCake.ttf);
+}
