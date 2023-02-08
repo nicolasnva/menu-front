@@ -41,7 +41,7 @@ export class AppComponent {
   sendForm() {
     if (!this.alreadySend) {
       this.http
-        .post('http://localhost:9001/create', {
+        .post('https://menu-back.onrender.com/create', {
           name: this.name.value,
           oasis: this.oasis.value,
           coca: this.coca.value,
