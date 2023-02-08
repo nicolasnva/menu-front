@@ -83,11 +83,35 @@ html {
   html {
     background-size: auto 140%;
     background-position-y: -320px;
-    background-position-x: -610px;
+    background-position-x: -560px;
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 940px) {
+  html {
+    background-size: auto 140%;
+    background-position-y: -380px;
+    background-position-x: -640px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  html {
+    background-size: auto 140%;
+    background-position-y: -380px;
+    background-position-x: -740px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    background-size: auto 140%;
+    background-position-y: -380px;
+    background-position-x: -760px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
   html {
     background-position-y: -380px;
     background-position-x: -900px;
