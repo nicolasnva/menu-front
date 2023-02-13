@@ -1,6 +1,7 @@
 <div class="main">
-  <h1>Repas chez Nico</h1>
-  <h1>Le 18 février 2023 midi</h1>
+  <h1 class="subtitle">Repas chez Nico<br>
+    Le 19 février 2023 midi</h1>
+  <br>
 
   Ton prénom
   <input class="input-text" type="text" [formControl]="name" /><br /><br />
@@ -35,11 +36,11 @@
       <input type="checkbox" [formControl]="vinBlanc" /><label>Vin Blanc</label>
     </div>
     <div class="checkbox-column">
-      <label>Idées de cocktail ?</label>
+      <label>Idées de cocktails ?</label>
       <input class="input-text" [formControl]="cocktails" type="text" />
     </div>
     <div class="checkbox-column">
-      <label>Suggestion libre</label>
+      <label>Suggestions libres</label>
       <input class="input-text" [formControl]="boissonsLibre" type="text" />
     </div>
   </div>
@@ -51,25 +52,22 @@
       <input type="checkbox" [formControl]="chips" /><label>Chips</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="cacahuete" /><label>Cacahuète</label>
-    </div>
-    <div class="checkbox">
       <input type="checkbox" [formControl]="curly" /><label>Curly</label>
     </div>
     <div class="checkbox">
       <input type="checkbox" [formControl]="saucisson" /><label>Saucisson</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="houmousCrudites" /><label>Houmous & Taztziki & crudités</label>
+      <input type="checkbox" [formControl]="houmousCrudites" /><label>Houmous, taztziki et crudités</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="wrapsSaumon" /><label>Wraps roulés au samon fumé</label>
+      <input type="checkbox" [formControl]="wrapsSaumon" /><label>Wraps roulés au saumon fumé</label>
     </div>
     <div class="checkbox">
       <input type="checkbox" [formControl]="blinisSaumon" /><label>Blinis au saumon</label>
     </div>
     <div class="checkbox-column">
-      <label>Suggestion libre</label>
+      <label>Suggestions libres</label>
       <input class="input-text" [formControl]="aperosLibre" type="text" />
     </div>
   </div>
@@ -86,22 +84,19 @@
       <input type="checkbox" [formControl]="tarteFraises" /><label>Tarte aux fraises</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="brownie" /><label>Brownie</label>
+      <input type="checkbox" [formControl]="brownie" /><label>Brownies</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="tiramisu" /><label>Tiramisu</label>
-    </div>
-    <div class="checkbox">
-      <input type="checkbox" [formControl]="porridgeBanane" /><label>Porridge à la banane & cannelle</label>
+      <input type="checkbox" [formControl]="tiramisu" /><label>Ch'Tiramisu</label>
     </div>
     <div class="checkbox">
       <input type="checkbox" [formControl]="tartePommes" /><label>Tarte aux pommes cannelle</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" [formControl]="glaceVanille" /><label>Glace Vanille</label>
+      <input type="checkbox" [formControl]="glaceVanille" /><label>Glace Vanille Chantilly</label>
     </div>
     <div class="checkbox-column">
-      <label>Suggestion libre</label>
+      <label>Suggestions libres</label>
       <input class="input-text" [formControl]="dessertsLibre" type="text" />
     </div>
   </div>
@@ -111,11 +106,10 @@
   <div *ngIf="alreadySend" class="bloc">
     Et c'est parti ! Ta selection a été envoyée !
   </div>
-
   <br />
   <br />
   Merci et à très bientôt :)
   <br />
   <br />
-  <div class="footer">Site réalisé à la main par Nicolas Vasseur @2023</div>
+  <div class="footer">Site réalisé à la main par <br>Nicolas Vasseur @2023</div>
 </div>

@@ -20,7 +20,6 @@ export class AppComponent {
   cocktails = new UntypedFormControl('');
   boissonsLibre = new UntypedFormControl('');
   chips = new UntypedFormControl('');
-  cacahuete = new UntypedFormControl('');
   curly = new UntypedFormControl('');
   saucisson = new UntypedFormControl('');
   houmousCrudites = new UntypedFormControl('');
@@ -30,7 +29,6 @@ export class AppComponent {
   tarteFraises = new UntypedFormControl('');
   brownie = new UntypedFormControl('');
   tiramisu = new UntypedFormControl('');
-  porridgeBanane = new UntypedFormControl('');
   tartePommes = new UntypedFormControl('');
   glaceVanille = new UntypedFormControl('');
   dessertsLibre = new UntypedFormControl('');
@@ -54,7 +52,6 @@ export class AppComponent {
           cocktails: this.cocktails.value,
           boissonsLibre: this.boissonsLibre.value,
           chips: this.chips.value,
-          cacahuete: this.cacahuete.value,
           curly: this.curly.value,
           saucisson: this.saucisson.value,
           houmousCrudites: this.houmousCrudites.value,
@@ -64,7 +61,6 @@ export class AppComponent {
           tarteFraises: this.tarteFraises.value,
           brownie: this.brownie.value,
           tiramisu: this.tiramisu.value,
-          porridgeBanane: this.porridgeBanane.value,
           tartePommes: this.tartePommes.value,
           glaceVanille: this.glaceVanille.value,
           dessertsLibre: this.dessertsLibre.value,

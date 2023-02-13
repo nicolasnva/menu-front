@@ -1,120 +1,16 @@
-html {
-  background-image: url(assets/cuisine.avif);
-  background-position: center;
-  background-size: auto 140%;
-  background-position-y: -320px;
-  background-position-x: -531px;
-  background-repeat: repeat-y;
-}
-
-@media only screen and (max-width: 2300px) {
+@media only screen and (max-width: 1000px) {
   html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -0px;
+    background: url(assets/cooking.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
 }
 
-@media only screen and (max-width: 2100px) {
+@media only screen and (min-width: 1000px) {
   html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -40px;
-  }
-}
-
-@media only screen and (max-width: 1900px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -100px;
-  }
-}
-
-@media only screen and (max-width: 1700px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -180px;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -260px;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -300px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -360px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -420px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -480px;
-  }
-}
-
-@media only screen and (max-width: 1023px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -320px;
-    background-position-x: -560px;
-  }
-}
-
-@media only screen and (max-width: 940px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -380px;
-    background-position-x: -640px;
-  }
-}
-
-@media only screen and (max-width: 840px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -380px;
-    background-position-x: -740px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  html {
-    background-size: auto 140%;
-    background-position-y: -380px;
-    background-position-x: -760px;
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  html {
-    background-position-y: -380px;
-    background-position-x: -900px;
+    background: url(assets/cuisine.avif) repeat center center;
+    background-position: center;
+    background-size: auto 109%;
+    background-position-y: -150px;
   }
 }
 
